@@ -1,0 +1,40 @@
+{
+    "name": "yedincisenol/laravel-firebase",
+    "description": "A Firebase port for Laravel",
+    "authors": [
+        {
+            "name": "İbrahim Ş. Örencik",
+            "email": "o@yedincisenol.com",
+            "homepage": "https://yedincisenol.com"
+        },
+        {
+            "name": "Julian Aceves",
+            "email": "j@j42.me",
+            "homepage": "https://j42.me"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/firebase/php-jwt"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "6.1.*",
+        "firebase/php-jwt": "@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "src/yedincisenol"
+        ],
+        "psr-0": {
+            "J42\\LaravelFirebase": "src/yedincisenol/LaravelFirebase"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

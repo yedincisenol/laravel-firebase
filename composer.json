@@ -29,7 +29,7 @@
             "src/yedincisenol"
         ],
         "psr-0": {
-            "J42\\LaravelFirebase": "src/yedincisenol/LaravelFirebase"
+            "yedincisenol\\LaravelFirebase": "src/LaravelFirebase"
         }
     },
     "config": {
